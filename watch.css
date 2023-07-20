@@ -6,8 +6,8 @@
 body {
     font: 1em sans-serif;
     padding: 10px;
-    min-height: 100vh;
-    overflow: hidden;
+    height: 100vh;
+    
 }
 .clock {
     background-color: aquamarine;
