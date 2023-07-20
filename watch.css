@@ -7,7 +7,8 @@ body {
     font: 1em sans-serif;
     padding: 10px;
     height: 100vh;
-    
+    width: 100vw;
+    overflow: hidden;
 }
 .clock {
     background-color: aquamarine;
