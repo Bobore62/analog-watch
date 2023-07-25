@@ -14,7 +14,7 @@ function setClock() {
     setRotation(minutes, min);
     setRotation(hour, hours);
 
-    const song = new Audio('clock-tiking-2_20.mp3');
+    const song = new Audio('clock-ticking-2_20.mp3');
     audio.play();
 }
 
