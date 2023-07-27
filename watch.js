@@ -3,7 +3,8 @@ const minutes = document.querySelector('[data-minute]');
 const seconds = document.querySelector('[data-sec]');
 
 setInterval(setClock,1000);
-
+const song = song = new Audio('clock-ticking-2_20.mp3');
+song.play();
 function setClock() {
     let currentDate = new Date;
     let secs = currentDate.getSeconds() /60;
@@ -13,8 +14,6 @@ function setClock() {
     setRotation(seconds, secs);
     setRotation(minutes, min);
     setRotation(hour, hours);
-
-    const song = new Audio('clock-ticking-2_20.mp3');
     song.play();
 }
 
